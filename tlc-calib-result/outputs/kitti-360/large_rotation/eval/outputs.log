@@ -1,0 +1,28 @@
+Optimizing outputs/kitti-360/large_rotation/eval
+Optimizing outputs/kitti-360/large_rotation/eval
+Optimizing outputs/kitti-360/large_rotation/eval
+
+[ITER 30000] Evaluating test: Photo 0.040486 PSNR 22.486810, Rot_Err: 0.108805[deg], Trans_Err: 0.125761[m]
+[CAM 0] Evaluating test: Rot_Err: 0.107241[deg], Trans_Err: 0.126566[m]
+[CAM 1] Evaluating test: Rot_Err: 0.073148[deg], Trans_Err: 0.129498[m]
+[CAM 2] Evaluating test: Rot_Err: 0.150965[deg], Trans_Err: 0.114626[m]
+[CAM 3] Evaluating test: Rot_Err: 0.103866[deg], Trans_Err: 0.132353[m]
+
+[ITER 30000] Evaluating train: Photo 0.034728 PSNR 23.595435, Rot_Err: 0.109395[deg], Trans_Err: 0.125680[m]
+[CAM 0] Evaluating train: Rot_Err: 0.108805[deg], Trans_Err: 0.126458[m]
+[CAM 1] Evaluating train: Rot_Err: 0.073148[deg], Trans_Err: 0.129355[m]
+[CAM 2] Evaluating train: Rot_Err: 0.151601[deg], Trans_Err: 0.114699[m]
+[CAM 3] Evaluating train: Rot_Err: 0.104026[deg], Trans_Err: 0.132207[m]
+
+[ITER 30000] Saving Gaussians
+2026-10-05 15:35:13,236 - INFO:   Method: [1;35mours_30000[0m
+2026-10-05 15:35:13,240 - INFO:   [CAM 00] Rot Err   : [1;35m   0.1088048[0m
+2026-10-05 15:35:13,241 - INFO:   [CAM 00] Trans Err : [1;35m   0.1267185[0m
+2026-10-05 15:35:13,241 - INFO:   [CAM 01] Rot Err   : [1;35m   0.0731482[0m
+2026-10-05 15:35:13,241 - INFO:   [CAM 01] Trans Err : [1;35m   0.1288345[0m
+2026-10-05 15:35:13,241 - INFO:   [CAM 02] Rot Err   : [1;35m   0.1516006[0m
+2026-10-05 15:35:13,241 - INFO:   [CAM 02] Trans Err : [1;35m   0.1223002[0m
+2026-10-05 15:35:13,241 - INFO:   [CAM 03] Rot Err   : [1;35m   0.1040263[0m
+2026-10-05 15:35:13,241 - INFO:   [CAM 03] Trans Err : [1;35m   0.1297827[0m
+2026-10-05 15:35:13,242 - INFO:   Avg Rot Err   : [1;35m   0.1093950[0m
+2026-10-05 15:35:13,242 - INFO:   Avg Trans Err : [1;35m   0.1269090[0m

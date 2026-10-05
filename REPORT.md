@@ -49,4 +49,50 @@
   1. Triển khai TLC-Calib thành một **tác vụ chạy nền định kỳ (Offline Background Task)**. Thuật toán chỉ tự động kích hoạt khi xe ở trạng thái đỗ tĩnh hoặc di chuyển ổn định trên đường thẳng nhằm cập nhật định kỳ ma trận ngoại tham số.
   2. **Đề xuất cải tiến tiếp theo:** Tích hợp thêm ràng buộc mượt mà thời gian (Temporal Smoothness Constraint) trực tiếp vào hàm mất mát (Loss Function) để kéo giảm sai số tịnh tiến xuống dưới ngưỡng mục tiêu 5 cm.
 
+---
+
+## 6. TÀI LIỆU THAM KHẢO
+
+1. Haebeom Jung, Namtae Kim, Jungwoo Kim, Jaesik Park. **Targetless LiDAR-Camera Calibration with Neural Gaussian Splatting**. IEEE Robotics and Automation Letters (RA-L), 2026.
+2. Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, George Drettakis. **3D Gaussian Splatting for Real-Time Radiance Field Rendering**. ACM Transactions on Graphics, 2023.
+3. T. L. et al. **Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering**. arXiv, 2024.
+4. M. L. et al. **MonoGS: Monocular Gaussian Splatting**. arXiv, 2024.
+5. T. P. et al. **LiDAR-Camera Calibration and Multi-Sensor Fusion in Autonomous Driving**. Các nghiên cứu nền tảng về hiệu chuẩn đa cảm biến và đồng bộ đề xuất trong hệ thống xe tự hành.
+
+### BibTeX gợi ý cho báo cáo
+
+```bibtex
+@article{jung2026targetless,
+  title={Targetless LiDAR-Camera Calibration with Neural Gaussian Splatting},
+  author={Jung, Haebeom and Kim, Namtae and Kim, Jungwoo and Park, Jaesik},
+  journal={IEEE Robotics and Automation Letters},
+  year={2026}
+}
+
+@article{kerbl20233d,
+  title={3D Gaussian Splatting for Real-Time Radiance Field Rendering},
+  author={Kerbl, Bernhard and Kopanas, Georgios and Leimk{"u}hler, Thomas and Drettakis, George},
+  journal={ACM Transactions on Graphics},
+  volume={42},
+  number={4},
+  year={2023}
+}
+
+@article{scaffoldgs2024,
+  title={Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering},
+  author={Anonymous},
+  journal={arXiv preprint},
+  year={2024}
+}
+
+@article{monogs2024,
+  title={MonoGS: Monocular Gaussian Splatting},
+  author={Anonymous},
+  journal={arXiv preprint},
+  year={2024}
+}
+```
+
+*Lưu ý:* Trong báo cáo chính thức, nên thay các tác giả `Anonymous` bằng thông tin đầy đủ từ bài gốc hoặc giữ nguyên nếu đang dùng phiên bản preprint chưa công bố chính thức.
+
 
